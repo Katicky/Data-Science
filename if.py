@@ -157,5 +157,23 @@ if lado1 == lado2 and lado2 == lado3:
 
 if lado1 != lado2 and lado2 != lado3 and lado1 and lado3:
     print('escaleno')
+'''
+'''
+peso_da_mercadoria = 1000
 
+percentual = 0 
+acrecimo = 0
+
+if peso_da_mercadoria <= 1000:
+    percentual = 0.25
+    acrecimo = 10
+
+if peso_da_mercadoria > 1000:
+    percentual = 0.33
+    acrecimo = 17
+
+valor_frete = (peso_da_mercadoria * percentual) + acrecimo
+
+print(valor_frete)
+    
 '''
