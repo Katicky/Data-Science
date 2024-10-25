@@ -146,6 +146,16 @@ print(salario_liquido)
 print(codigo_estado_civil)
 print(descricao_estado_civil)
 '''
+'''
+lado1 = 1
+lado2 = 1
+lado3 = 1
+triangulo = 'isosceles'
 
+if lado1 == lado2 and lado2 == lado3:
+    triangulo = 'Equilatero'
 
+if lado1 != lado2 and lado2 != lado3 and lado1 and lado3:
+    print('escaleno')
 
+'''
