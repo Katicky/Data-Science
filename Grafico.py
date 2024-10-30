@@ -78,11 +78,8 @@ dados = {
 }
 df = pd.DataFrame(dados)
 
-labels = 'Produto A', 'Produto B', 'Produto C', 'Produto D'
-sizes =  [150, 200, 300, 100]
-
-fig, ax = plt.subplots()
-ax.pie(sizes, labels = labels)
+plt.pie(df['Vendas'], labels=df['Produto'], autopct='%1.1f%%')
+plt.show()
 
 
 
