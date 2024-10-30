@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
+#sempre pesquisar sobre o que você esta importando para saber o que ele faz e como faz
 '''
 data = {
     'Produto': [
